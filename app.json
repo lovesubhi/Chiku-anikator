@@ -8,7 +8,7 @@
     "akinator"
   ],
   "repository": "https://github.com/lovesubhi/gamee",
-  "website": "https://github.com/subhichiku",
+  "website": "https://github.com/lovesubhi",
   "success_url": "https://t.me/Subhi_love",
   "env": {
     "Chiku_mongo_host": {
