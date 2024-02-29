@@ -1,0 +1,33 @@
+{
+  "name": "ᴄʜɪᴋᴜ x ᴀᴋɪɴᴀᴛᴏʀ",
+  "description": "A telegram bot made with python, to play akinator game",
+  "logo": "https://telegra.ph/file/c1273112d4bddd5f03b7b.jpg",
+    "keywords": [
+    "telegram",
+    "Bot",
+    "akinator"
+  ],
+  "repository": "https://github.com/subhichiku/CHIKU-AKINATOR",
+  "website": "https://github.com/subhichiku",
+  "success_url": "https://t.me/Subhi_love",
+  "env": {
+    "Chiku_mongo_host": {
+      "description": "MONGO DB URL",
+      "value": "",
+      "required": true
+    },
+    "bot_token": {
+      "description": "BOT TOKEN",
+      "value": "",
+      "required": true
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ]
+}
